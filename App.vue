@@ -19,6 +19,7 @@
     <!-- Without background -->
     <ButtonLoading class="m-4"/>
 
+    <!-- Items -->
     <div class="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 xl:grid-cols-5">
       <ItemCard/>
       <ItemCard/>
@@ -27,6 +28,9 @@
       <ItemCard/>
       <ItemCard/>
       <ItemCard/>
+      <ItemCardPreloader/>
+      <ItemCardPreloader/>
+      <ItemCardPreloader/>
     </div>
 
   </main>
@@ -38,4 +42,5 @@ import ThemeToggle from './components/ThemeToggle.vue'
 import Button from './components/Button.vue'
 import ButtonLoading from './components/ButtonLoading.vue'
 import ItemCard from './components/ItemCard.vue'
+import ItemCardPreloader from './components/ItemCardPreloader.vue'
 </script>

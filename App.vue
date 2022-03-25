@@ -33,6 +33,24 @@
       <ItemCardPreloader/>
     </div>
 
+    <!-- Container (example) -->
+    <div class="mx-auto max-w-7xl 
+                 px-4 sm:px-6 lg:px-8 
+                 pt-18 sm:pt-20 lg:pt-24 xl:pt-26">
+    </div>
+
+    <!-- Big text -->
+    <h3 class="text-3xl font-extrabold leading-9 tracking-tight sm:leading-10">
+      Text example
+    </h3>
+    <!-- Medium text -->
+    <h4 class="font-bold text-xl">
+      Text example
+    </h4>
+    <!-- Small text -->
+    <p class="text-lg text-gray-900 dark:text-gray-200">
+      Text example
+    </p>
   </main>
 </template>
 
